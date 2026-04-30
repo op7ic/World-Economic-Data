@@ -8,17 +8,17 @@ Each yearly file is a research-style snapshot of the world economy for that spec
 
 | Item | Value |
 |------|-------|
-| Annual reports | 114 |
-| First year | 1911 |
+| Annual reports | 124 |
+| First year | 1901 |
 | Last year | 2025 |
-| Missing years inside the covered range | 1918 |
+| Missing years inside the covered range | 1905 |
 | File naming pattern | `YYYY.md` |
 
-The current repository contains reports from `1911.md` through `2025.md`, with `1918.md` currently missing.
+The current repository contains reports from `1901.md` through `2025.md`, with `1905.md` currently missing.
 
 ## Repository Layout
 
-- `1911.md` ... `2025.md`: one report per year
+- `1901.md` ... `2025.md`: one report per year
 - `README.md`: project overview and example generation prompt
 - `LICENSE`: repository license
 
@@ -37,7 +37,7 @@ The reports follow a consistent structure:
 9. Data confidence and gaps
 10. References
 
-Representative files such as `1911.md`, `1980.md`, and `2025.md` follow this same high-level layout.
+Representative files such as `1901.md`, `1980.md`, and `2025.md` follow this same high-level layout.
 
 ## Notes on Historical Data
 
