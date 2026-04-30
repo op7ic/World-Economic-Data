@@ -54,6 +54,15 @@ Representative files such as `1911.md`, `1980.md`, and `2025.md` follow this sam
 4. Save the result as `{{YEAR}}.md` in the repository root.
 5. Verify citations, year-over-year comparisons, and any declared data gaps.
 
+## Contributing
+
+Contributions are welcome via pull request.
+
+- Open a pull request for new year files, corrections, source improvements, formatting fixes, or documentation updates.
+- Keep each yearly report self-contained and consistent with the structure documented in this README.
+- Include source-backed changes only, and prefer explicit `Data not available` notes over unverified estimates.
+- We review contributed data and documentation changes before merging.
+
 ## Example Prompt
 
 The block below is the example prompt used to generate a yearly report. It is intentionally detailed so future additions stay consistent with the existing files.
