@@ -37,7 +37,7 @@ The reports follow a consistent structure:
 9. Data confidence and gaps
 10. References
 
-Representative files such as `1901.md`, `1980.md`, and `2025.md` follow this same high-level layout.
+Representative files such as [1901.md](1901.md), [1980.md](1980.md), and [2025.md](2025.md) follow this same high-level layout.
 
 ## Notes on Historical Data
 
