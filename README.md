@@ -14,12 +14,12 @@ Each yearly file is a research-style snapshot of the world economy for that spec
 | Missing years inside the covered range | None |
 | File naming pattern | `YYYY.md` |
 
-The current repository contains a continuous run from `1901.md` through `2025.md`.
+The current repository contains a continuous run from [1901.md](1901.md) through [2025.md](2025.md).
 
 ## Repository Layout
 
-- `1901.md` ... `2025.md`: one report per year
-- `README.md`: project overview and example generation prompt
+- [1901.md](1901.md) ... [2025.md](2025.md): one report per year
+- [README.md](README.md): project overview and example generation prompt
 - `LICENSE`: repository license
 
 ## What Each Year File Contains
