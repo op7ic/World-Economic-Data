@@ -8,17 +8,17 @@ Each yearly file is a research-style snapshot of the world economy for that spec
 
 | Item | Value |
 |------|-------|
-| Annual reports | 126 |
+| Annual reports | 127 |
 | First year | 1900 |
-| Last year | 2025 |
+| Last year | 2026 (partial: data through 23 October 2026) |
 | Missing years inside the covered range | None |
 | File naming pattern | `YYYY.md` |
 
-The current repository contains a continuous run from [1900.md](1900.md) through [2025.md](2025.md).
+The current repository contains a continuous run from [1900.md](1900.md) through [2026.md](2026.md). [2026.md](2026.md) covers data available through 23 October 2026; its annual figures are labelled projections or partial-period observations, not year-end outcomes.
 
 ## Repository Layout
 
-- [1900.md](1900.md) ... [2025.md](2025.md): one report per year
+- [1900.md](1900.md) ... [2026.md](2026.md): one report per year
 - [README.md](README.md): project overview and example generation prompt
 - `LICENSE`: repository license
 
@@ -39,6 +39,8 @@ The reports follow a consistent structure:
 
 Representative files such as [1900.md](1900.md), [1980.md](1980.md), and [2025.md](2025.md) follow this same high-level layout.
 
+All yearly files use the same heading structure: `##` for the ten sections, `###` for subsections (3A-3E, 5A-5D, 6A-6D), and `#### Rank N: Country` for the 20 country blocks, each with the same eight-row macro indicator table. References appear only in section 10, numbered in IEEE/Vancouver style, with no inline citations. Values that could not be established are written as `Data not available`.
+
 ## Notes on Historical Data
 
 - Older years rely more heavily on reconstructed historical datasets and archival statistics.
@@ -53,6 +55,10 @@ Representative files such as [1900.md](1900.md), [1980.md](1980.md), and [2025.m
 3. Generate the report with source-backed historical research.
 4. Save the result as `{{YEAR}}.md` in the repository root.
 5. Verify citations, year-over-year comparisons, and any declared data gaps.
+
+## Third-Party Data
+
+Some yearly reports include selected values derived from the Jordà-Schularick-Taylor Macrohistory Database (CC BY-NC-SA 4.0, https://www.macrohistory.net/database/) and from HSSO rent data (CC BY-NC-SA 3.0 FR). Where used, the source is cited in that year's References and those values keep their original attribution, non-commercial and share-alike terms. The repository license does not override those terms. Maddison Project, World Bank, IMF, OECD and other sources keep their own terms.
 
 ## Contributing
 
